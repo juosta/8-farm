@@ -1,0 +1,24 @@
+body,
+body * {
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    background-color: #E6EBF5;
+}
+
+.container{
+    width:100%;
+    background-color: white;
+}
+
+.farm_camp, .statistics, .husbandry{
+    display:inline-block;
+    width: 33%;
+}
+
+
