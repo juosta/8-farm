@@ -12,11 +12,51 @@ body{
 }
 
 .container{
-    width:100%;
+    margin-top: 80px;
+    width: 1450px;
     background-color: white;
+    padding: 60px;
+    margin-left: calc((100% - 1450px) / 2 );
+}
+.top_section{
+    width: 100%;
+    position: relative;
+}
+.crop_header{
+    width: 100%;
+    line-height: 28px;
+    
+}
+.crop_header > h1{
+    display: inline-block;
+    font-weight: lighter;
+    margin-right: 52px;
+}
+.crop_header > h1 > span{
+    font-weight: bold;
+}
+.crop_header > button{
+    display: inline-block;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    line-height: 14px;
+    border: none;    
+}
+.crop_header > button > img{
+    width: 14px;
+    padding-top: 3px;
 }
 
-.crops_box{
+.crops_boxes{
+    width: 70%;
+    float: left;
+    padding: 20px 0 60px 0;
+}
+.crops_box:first-of-type{
+    margin-left: 0;
+}
+.crops_box, .crops_button{
     box-sizing: content-box;
     display: inline-block;
     width: 47px;
@@ -40,11 +80,93 @@ body{
     color: #9194B3;
     font-size: 22px;
 }
+.crops_button{
+    padding: 5px;
+    float: right;
+    width: 75px;
+    border: none;
+    background-color: #6236FF;
+}
+.crops_button > div:first-of-type{
+    color: white;
+    line-height: 80px;
+    font-size: 18px;
+}
+.crops_button > div:nth-of-type(2){
+    background-color: white;
+    line-height: 78px;
+    border-radius: 39px;
+    color: #6236FF;
+    font-weight: bold;
+    font-size: 37px;
+}
 
+.flower {
+    float:right;
+    width:30%;
+    margin-left: 0;
+}
+.flower > img {
+    display: inline-block;
+    position:absolute;
+    right: -58px;
+    top: -22px;
+}
+.flower > h2 {
+    right: 314px;
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    width: 30px;
+    font-size: 35px;
+    color: #69B245;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-stretch: extra-expanded;
+}
+.flower > h2 > span {
+    font-weight: 500;
+}
 
+.mid_section {
+    display: inline-block;
+    width: 100%;
+}
 .farm_camp, .statistics, .husbandry{
     display:inline-block;
     width: 33%;
 }
+.farm_camp{
+    border: solid 1px #E6EBF5;
+}
 
+.statistics_box{
+    display: inline-block;
+    border-radius: 15px;
+    width: 100%;
+    padding: 30px;
+}
+.statistics_box > img, .statistics_box > h3, .statistics_box > p{
+    display: inline-block;
+}
+.statistics_box:first-of-type{
+    background-color: #D8F8FF;
+}
+.statistics_box:nth-of-type(2){
+    background-color: #FFF4CC;
+}
+.statistics_box:nth-of-type(3){
+    background-color: #F2FFCC;
+}
 
+.husbandry{
+    background-color: #6236FF;
+}
+
+footer > img{
+    background-color: #6236FF;
+}
+
+.footer_main{
+    display: inline-block;
+    background-color: #6236FF;
+}
