@@ -153,13 +153,18 @@ body{
 }
 
 .farm_camp > h2{
-    
+    font-size: 27px;
+    margin-bottom: 16px;
 }
 .farm_camp > p{
-    
+    line-height: 24px;
+    color: #8184A7;
 }
 .farm_camp > img{
     position: absolute;
+    bottom: -63px;
+    left: 0px;
+    width: 478px;
 }
 
 .statistics{
