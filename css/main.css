@@ -9,6 +9,7 @@ body * {
 
 body{
     background-color: #E6EBF5;
+    
 }
 
 .container{
@@ -18,6 +19,7 @@ body{
     padding: 60px;
     padding-right: 0px;
     margin-left: calc((100% - 1450px) / 2 );
+    border-radius: 54px;
 }
 .top_section{
     width: 100%;
