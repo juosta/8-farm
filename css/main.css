@@ -16,6 +16,7 @@ body{
     width: 1450px;
     background-color: white;
     padding: 60px;
+    padding-right: 0px;
     margin-left: calc((100% - 1450px) / 2 );
 }
 .top_section{
@@ -131,20 +132,45 @@ body{
 .mid_section {
     display: inline-block;
     width: 100%;
+    position: relative;
 }
 .farm_camp, .statistics, .husbandry{
     display:inline-block;
-    width: 33%;
-}
-.farm_camp{
-    border: solid 1px #E6EBF5;
+    width: 30%;
+    margin-right: 62px;
+    
 }
 
+.farm_camp{
+    
+    border: solid 1px #E6EBF5;
+    padding: 30px;
+    border-radius: 30px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0;
+}
+
+.farm_camp > h2{
+    
+}
+.farm_camp > p{
+    
+}
+.farm_camp > img{
+    position: absolute;
+}
+
+.statistics{
+    margin: 0 calc((100% - 399px) / 2 );
+}
 .statistics_box{
     display: inline-block;
     border-radius: 15px;
     width: 100%;
     padding: 30px;
+    
 }
 .statistics_box > img, .statistics_box > h3, .statistics_box > p{
     display: inline-block;
@@ -161,6 +187,31 @@ body{
 
 .husbandry{
     background-color: #6236FF;
+    margin-right: 0;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right:0;
+    border-radius: 56px;
+    padding: 36px;
+    color: white;
+    font-size: 22px;
+}
+
+.husbandry > h2{
+    font-weight: normal;
+    margin-bottom: 15px;
+}
+.husbandry > p {
+    font-size: 17px;
+    color: #CABCFF;
+    width: 149px;
+    line-height: 25px;
+}
+.husbandry > img{
+    position: absolute;
+    right: -20px;
+    bottom: -9px;
 }
 
 footer > img{
