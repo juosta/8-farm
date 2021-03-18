@@ -170,16 +170,52 @@ body{
 .statistics{
     margin: 0 calc((100% - 399px) / 2 );
 }
+.statistics > h2{
+    display: inline-block;
+    font-size: 27px;
+    margin-bottom: 15px;
+}
+.statistics > button{
+    float: right;
+    padding: 10px;
+    border-radius: 25px;
+    font-weight: bold;
+    line-height: 14px;
+    border: none;   
+}
+.statistics > button > img{
+    height: 14px;
+    padding: 0 3px;
+}
+
 .statistics_box{
     display: inline-block;
-    border-radius: 15px;
+    border-radius: 51px;
     width: 100%;
-    padding: 30px;
-    
+    padding: 25px 40px;
+    margin-bottom: 20px;
 }
-.statistics_box > img, .statistics_box > h3, .statistics_box > p{
+.statistics_box:last-of-type{
+    margin-bottom: 0;}
+
+.statistics_box > img, .statistics_box > div{
     display: inline-block;
 }
+.statistics_box > img{
+   width: 50px;
+
+}
+.statistics_box > p{
+    float:right;
+    line-height: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+.amount_usedW{color: #2297D2;}
+.amount_usedT{color: #D79E22;}
+.amount_usedF{color: #70A922;}
+
 .statistics_box:first-of-type{
     background-color: #D8F8FF;
 }
@@ -189,7 +225,14 @@ body{
 .statistics_box:nth-of-type(3){
     background-color: #F2FFCC;
 }
-
+.statistics_box > div > h3, .statistics_box > div > p{
+    font-size: 22px;
+    margin-left: 26px;
+}
+.statistics_box > div > p{
+    margin-top: 4px;
+    font-size: 20px;
+}
 .husbandry{
     background-color: #6236FF;
     margin-right: 0;
