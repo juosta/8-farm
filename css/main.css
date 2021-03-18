@@ -157,8 +157,11 @@ body{
     margin-bottom: 16px;
 }
 .farm_camp > p{
-    line-height: 24px;
+    line-height: 26px;
     color: #8184A7;
+    text-align: justify;
+    font-size: 18px;
+    width: 80%;
 }
 .farm_camp > img{
     position: absolute;
