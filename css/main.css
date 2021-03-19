@@ -30,9 +30,18 @@ body{
     margin-left: calc((100% - 1450px) / 2 );
     border-radius: 54px;
 }
-.top_section{
-    width: 100%;
+.blue-background1{
+    background-color: #6236FF;
     position: relative;
+
+    
+}
+
+.top_section{
+    display: inline-block;
+    width: 100%;
+    background-color: white;
+    border-bottom-right-radius: 50px;
 }
 .crop_header{
     width: 100%;
@@ -122,7 +131,7 @@ body{
 .flower > img {
     display: inline-block;
     position:absolute;
-    right: -58px;
+    right: -26px;
     top: -22px;
 }
 .flower > h2 {
@@ -255,6 +264,7 @@ body{
     bottom: 0px;
     right:0;
     border-radius: 56px;
+    border-top-right-radius: 0px;
     padding: 36px;
     color: white;
     font-size: 22px;
