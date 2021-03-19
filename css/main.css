@@ -9,9 +9,13 @@ body * {
 
 body{
     background-color: #E6EBF5;
-    
 }
-
+.blue-background{
+    background-color: #6236FF;
+    width: 1450px;
+    border-radius: 56px;
+    border-bottom-right-radius: 0;
+}
 .container{
     margin-top: 80px;
     width: 1450px;
@@ -267,11 +271,60 @@ body{
     bottom: -9px;
 }
 
+footer{
+    margin-left: calc((100% - 1450px) / 2);
+    position: relative;
+}
 footer > img{
     background-color: #6236FF;
+    padding: 13px;
+    border-radius: 26px;
+    margin-top: 15px;
 }
 
 .footer_main{
+    width: 1341px;
     display: inline-block;
     background-color: #6236FF;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    margin-left: 12px;
+    color: white;
+}
+
+.footer_main > p{
+    display: inline-block;
+    line-height: 31px;
+    padding: 30px;
+}
+.footer_main > p:last-of-type{
+    position: absolute;
+    right: 200px;
+}
+.footer_main > nav > a{
+    padding: 10px;
+    margin: 0 15px;
+}
+.footer_main > nav > a:first-of-type{
+    text-decoration: none;
+    color: white;
+}
+.footer_main > p:last-of-type{
+    
+}
+.footer_main > nav{
+    position: absolute;
+    display: inline-block;
+    margin-top: 30px;
+    left: 450px;
+}
+.footer_main > nav > a:hover, .footer_main > nav > a:focus{
+    background-color: #754EFF;
+    border-radius: 15px;
+    
+}
+.footer_main > img{
+    float:right;
+    margin-top: 10px;
+    margin-right: 46px;
 }
