@@ -10,6 +10,11 @@ body * {
 body{
     background-color: #E6EBF5;
 }
+.all{
+    margin-left: calc((100% - 1450px) / 2 );
+    width: 1450px;
+    position: relative;
+}
 .blue-background{
     background-color: #6236FF;
     width: 1450px;
@@ -272,8 +277,9 @@ body{
 }
 
 footer{
+    width: 1450px;
     margin-left: calc((100% - 1450px) / 2);
-    position: relative;
+    position: absolute;
 }
 footer > img{
     background-color: #6236FF;
@@ -283,8 +289,8 @@ footer > img{
 }
 
 .footer_main{
-    width: 1341px;
-    display: inline-block;
+    width: 1382px;
+    float: right;
     background-color: #6236FF;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
@@ -309,9 +315,7 @@ footer > img{
     text-decoration: none;
     color: white;
 }
-.footer_main > p:last-of-type{
-    
-}
+
 .footer_main > nav{
     position: absolute;
     display: inline-block;
