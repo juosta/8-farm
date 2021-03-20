@@ -394,3 +394,15 @@ footer > img{
     from {bottom: 0px;}
     to {bottom: 80px;}
   }
+
+  .moving_down_button{
+    position: relative;
+    animation: mymove2;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes mymove2 {
+    from {bottom: 80px;}
+    to {bottom: 0px;}
+  }

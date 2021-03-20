@@ -19,5 +19,12 @@ function myFunction() {
   }
 
   function movingButton(){
+    document.getElementById( "moving_button" ).setAttribute( "onClick", "removeClass();" );
+    document.getElementById('moving_button').classList.remove='moving_down_button';
     document.getElementById('moving_button').className='moving_button';
+  }
+  function removeClass(){
+    document.getElementById( "moving_button" ).setAttribute( "onClick", "movingButton();" );
+    document.getElementById('moving_button').classList.remove='moving_button';
+    document.getElementById('moving_button').className='moving_down_button';
   }
