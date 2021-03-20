@@ -17,3 +17,7 @@ function myFunction() {
       }
     }
   }
+
+  function movingButton(){
+    document.getElementById('moving_button').className='moving_button';
+  }

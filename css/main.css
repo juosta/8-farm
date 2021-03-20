@@ -356,7 +356,6 @@ footer > img{
   }
   
   
-  
   .dropdown-content {
     display: none;
     position: absolute;
@@ -380,3 +379,18 @@ footer > img{
   .dropdown-content> a:hover {background-color: #A0A0FF;}
   
   .show {display: block;}
+
+  /* MOVING BUTTON*/
+#moving_button:hover{
+    cursor: pointer;
+}
+.moving_button{
+    position: relative;
+    animation: mymove;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+@keyframes mymove {
+    from {bottom: 0px;}
+    to {bottom: 80px;}
+  }
