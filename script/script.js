@@ -28,3 +28,14 @@ function myFunction() {
     document.getElementById('moving_button').classList.remove='moving_button';
     document.getElementById('moving_button').className='moving_down_button';
   }
+
+  function slideRight1() {
+    document.getElementById('scrollable_stat1').style.visibility='visible';
+    document.getElementById('scrollable_stat2').style.visibility='hidden';
+    document.getElementById('statscrollbutton').setAttribute( "onClick", "slideRight2();" );
+  };
+  function slideRight2(){
+    document.getElementById('scrollable_stat2').style.visibility='visible';
+    document.getElementById('scrollable_stat1').style.visibility='hidden';
+    document.getElementById( "statscrollbutton" ).setAttribute( "onClick", "slideRight1();" );
+  }

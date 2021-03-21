@@ -192,6 +192,7 @@ body{
 
 .statistics{
     margin: 0 calc((100% - 399px) / 2 );
+    overflow: hidden;
 }
 .statistics > h2{
     display: inline-block;
@@ -205,7 +206,13 @@ body{
     font-weight: bold;
     line-height: 14px;
     border: none;   
+    cursor: pointer;
 }
+#statscrollbutton:hover, #statscrollbutton:focus {
+    background-color: #B5B5B5;
+    outline: none;
+  }
+
 .statistics > button > img{
     height: 14px;
     padding: 0 3px;
@@ -406,3 +413,18 @@ footer > img{
     from {bottom: 80px;}
     to {bottom: 0px;}
   }
+
+ 
+  /* statistics scroll */
+  #scrollable_stat1{
+    position: relative;
+    z-index:1;
+     }
+  
+  
+  #scrollable_stat2{
+      position: absolute;
+      z-index:-1;
+      top: 0px;
+      left: 0px;
+    }

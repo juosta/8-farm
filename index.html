@@ -81,7 +81,8 @@
         </div>
         <div class="statistics">
             <h2>Statistics</h2>
-            <button><img src="./img/right_arrow.png" alt="right arrow"></button>
+            <button id="statscrollbutton" onclick="slideRight1()"><img src="./img/right_arrow.png" alt="right arrow"></button>
+            <div id="scrollable_stat1" >
             <div class="statistics_box">
                 <img src="./img/water.png" alt="Water drop">
                 <div><h3>Water</h3>
@@ -99,6 +100,30 @@
                 <div><h3>Forest</h3>
                 <p class="amount_usedF">forest</p></div>
                 <p class="amount_usedF">2</p>
+            </div>
+            
+            <!-- second statistics block -->
+            <div id="scrollable_stat2" >
+                <div class="statistics_box">
+                    <img src="./img/power.png" alt="Power">
+                    <div><h3>Power</h3>
+                    <p class="amount_usedW">watt</p></div>
+                    <p class="amount_usedW">745</p>
+                </div>
+                <div class="statistics_box">
+                    <img src="./img/human.png" alt="Human">
+                    <div><h3>Human power</h3>
+                    <p class="amount_usedT">persons</p></div>
+                    <p class="amount_usedT">25</p>
+                </div>
+                <div class="statistics_box">
+                    <img src="./img/fertilizer.png" alt="Fertilizer">
+                    <div><h3>Fertilizer</h3>
+                    <p class="amount_usedF">kg</p></div>
+                    <p class="amount_usedF">150</p>
+                </div>
+            <!-- end of second statistics block -->
+            
             </div>
         </div>
         <div class="husbandry">
